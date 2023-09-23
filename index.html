@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinna Shyam</title>
+
+    <!-- External CSS stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/4b4df380d8.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+</head>
+<svg>
+    <filter id='noiseFilter'>
+        <feTurbulence type='fractalNoise' baseFrequency='2' stitchTiles='stitch' />
+    </filter>
+</svg>
+
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <h1 class="counter">0</h1>
+        <div class="overlay">
+            <div class="bar">
+                <div class="bar second-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+        <nav>
+            <a href="#PAGE2" class="hover-this cursor-scale small"><span class="span1">ABOUT ME</span></a>
+            <a href="#PAGE3" class="hover-this cursor-scale small"><span class="span1">PROJECTS</span></a>
+            <a href="#PAGE4" class="hover-this cursor-scale small"><span class="span1">CONTACT</span></a>
+        </nav>
+    </div>
+
+    <!-- GIF * in progress * -->
+    <!-- <img id="animated-gif" src="images/Untitled.gif" alt="Animated GIF"> -->
+
+
+    <!-- Page 1 -->
+    <section id="PAGE1">
+        <div class="container-fluid">
+            <header class="top-left-header">
+                <h1>abhinna.dev</h1>
+            </header>
+            <div class="page1_container my-element">
+                <!-- Title and Introduction -->
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <h1 class="Heading">
+                            <span class="cursor-scale fade-text">HI! I AM ABHINNA SHYAM. FRONT-END DEV.</span>
+                        </h1>
+                        <p class="firstpagebody cursor-scale small fade-text">Developer and designer focused on building
+                            modern, elegant, and scalable web interfaces.</p>
+                        <a href="Resume_Abhinna.pdf" class="btn btn-dark resume cursor-scale smaller"
+                            download><span>DOWNLOAD CV</span></a>
+                    </div>
+                    <div class="col-md-6 col-12 text-end social-icons">
+                        <!-- Social Icons -->
+                        <a href="https://github.com/abhinnaofficial"
+                            class="social-icon cursor-scale smaller wiggle-animation"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/scorchedrealm/?hl=en"
+                            class="social-icon cursor-scale smaller wiggle-animation"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com/scorchedrealm/?hl=en"
+                            class="social-icon cursor-scale smaller wiggle-animation"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2 - About Me -->
+    <section id="PAGE2" class="rounded-top">
+        <div class="container-fluid aboutme">
+            <div class="row row_fix">
+                <div class="col-md-6 col-12">
+                    <h1 class="aboutme1"><span class="cursor-scale small fade-text">ABOUT ME</span></h1>
+                    <p class="aboutmepara cursor-scale fade-text">Hi, I am a <span class="para_focus">frontend web
+                            developer</span> helping brands to stand out and delivering quality work. Whether you have
+                        an existing website to update or need a fresh one, you are at the right place.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 3 - Projects -->
+
+    <!-- Project 1 -->
+    <section id="PAGE3" class="carousel full-page">
+        <div class="extra-rectangle"></div>
+        <h4 class="project-heading fade-text cursor-scale">PROJECTS</h4>
+
+        <div id="project-carousel" class="carousel carousel-dark slide" data-ride="carousel" data-pause="hover">
+
+            <!-- Carousel Content -->
+            <div class="carousel-inner">
+                <!-- Project 1 -->
+                <div class="carousel-item active" data-interval="1000">
+                    <div class="container-carousel">
+                        <!-- Left side (image) -->
+                        <div class="project-image cursor-scale">
+                            <img src="images/todo_app.png" class="todologo" alt="Todo App Image">
+                        </div>
+                        <!-- Right side -->
+                        <div class="project-info">
+                            <h2 class="project-title cursor-scale">To-Do App</h2>
+                            <p class="project-description cursor-scale small">
+                                Create and manage your tasks with this interactive Todo List app. Keep track of your
+                                daily tasks, mark them as complete, and remove them when they're done. The app features
+                                a user-friendly interface, drag-and-drop functionality, and responsive design for
+                                seamless usage on both desktop and mobile devices.
+                            </p>
+                            <div class="project-buttons cursor-scale small">
+                                <a href="#" class="btn btn2 btn-dark">Demo</a>
+                                <a href="#" class="btn btn2 btn-dark">Source</a>
+                            </div>
+                            <div class="tech-stack">
+                                <!-- Add tech stack icons here -->
+                                <img src="images/html.png" class="techicon wiggle-animation cursor-scale smaller"
+                                    alt="HTML">
+                                <img src="images/css.png" class="techicon wiggle-animation cursor-scale smaller"
+                                    alt="CSS">
+                                <img src="images/js.png" class="techicon wiggle-animation cursor-scale smaller"
+                                    alt="JavaScript">
+                                <img src="images/nodejs.png" class="techicon wiggle-animation cursor-scale smaller"
+                                    alt="Node.js">
+                                <img src="images/ejs.png" class="techicon wiggle-animation cursor-scale smaller"
+                                    alt="EJS">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Add more carousel items as needed) -->
+                <div class="carousel-item">
+                    <div class="container-carousel">
+                        <!-- Left side (image) -->
+                        <div class="project-image cursor-scale">
+                            <img src="images/weatherapp.png" class="weatherlogo" alt="Todo App Image">
+                        </div>
+                        <!-- Right side -->
+                        <div class="project-info">
+                            <h2 class="project-title2 cursor-scale">Weather App</h2>
+                            <p class="project-description cursor-scale small">
+                                Stay informed about weather conditions with this user-friendly Weather App. Get
+                                real-time
+                                updates on current weather, 5-day forecasts, and hourly predictions. Designed with a
+                                sleek interface, responsive design for
+                                seamless usage on both desktop and mobile devices.
+                            </p>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn2 btn-dark">Demo</a>
+                                <a href="#" class="btn btn2 btn-dark">Source</a>
+                            </div>
+                            <div class="tech-stack2 cursor-scale smaller">
+                                <!-- Add tech stack icons here -->
+                                <img src="images/html.png" class="techicon wiggle-animation" alt="HTML">
+                                <img src="images/css.png" class="techicon wiggle-animation" alt="CSS">
+                                <img src="images/js.png" class="techicon wiggle-animation" alt="JavaScript">
+                                <img src="images/weatherapi.png" class="techicon wiggle-animation" alt="JavaScript">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#project-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="horizontal" class="full-screen-section">
+        <h2 class="skillsheading cursor-scale">SKILLS</h2>
+        <div class="skills-container">
+            <!-- Skills Boxes -->
+            <div class="skill-box wiggle-animation">
+                <div class="gradient-bg black-yellow">
+                    <div class="skill">HTML</div>
+                </div>
+            </div>
+            <div class="skill-box wiggle-animation">
+                <div class="gradient-bg black-yellow">
+                    <div class="skill">CSS</div>
+                </div>
+            </div>
+            <div class="skill-box wiggle-animation">
+                <div class="gradient-bg black-yellow">
+                    <div class="skill">JavaScript</div>
+                </div>
+            </div>
+            <div class="skill-box wiggle-animation">
+                <div class="gradient-bg black-yellow">
+                    <div class="skill">Bootstrap</div>
+                </div>
+            </div>
+            <div class="skill-box wiggle-animation">
+                <div class="gradient-bg black-yellow">
+                    <div class="skill">Node.js</div>
+                </div>
+            </div>
+            <div class="skill-box wiggle-animation">
+                <div class="gradient-bg black-yellow">
+                    <div class="skill">EJS</div>
+                </div>
+            </div>
+        </div>
+        <div class="sphere"></div>
+    </section>
+
+    <!-- Page 4 - Contact -->
+    <section id="PAGE4" class="fill-screen-contact">
+        <div class="extra-rectangle"></div>
+
+        <h4 class="contact-heading"></h4>
+        <div class="contact-container">
+            <div class="left-half">
+                <div class="left-content">
+                    <h1 class="big-text cursor-scale">WANT TO START A NEW PROJECT?</h1>
+                    <p class="small-text cursor-scale small">Or Just Say Hello.</p>
+                </div>
+            </div>
+            <div class="right-half">
+                <div class="right-content">
+                    <!-- Email Address -->
+                    <div class="email-address">
+                        <a href="mailto:abhinnaofficial@gmail.com"
+                            class="email-link cursor-scale small wiggle-animation">
+                            abhinnaofficial@gmail.com
+                        </a>
+                    </div>
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/scorchedrealm/?hl=en"
+                            class="social-link cursor-scale smaller"><i class="fab fa-instagram wiggle-animation"></i>
+                            Instagram</a>
+                        <a href="https://www.twitter.com/scorchedrealm/?hl=en"
+                            class="social-link cursor-scale smaller wiggle-animation"><i class="fab fa-twitter"></i>
+                            Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="FOOTER">
+        <footer>
+            <div class="footer_container">
+                <div class="footer-disclaimer">
+                    &copy; 2023 Abhinna Shyam. All rights reserved.
+                </div>
+            </div>
+            <div class="gradient-animation"></div>
+        </footer>
+    </section>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CSSRulePlugin.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.22/bundled/lenis.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script type="module" src="index.js"></script>
+
+    <!-- Parallax Scrolling Effect -->
+    <script>
+        window.addEventListener('scroll', function () {
+            const scrolled = window.scrollY;
+            const background = document.body.style.backgroundPositionY = -(scrolled * 0.2) + 'px'; // Can adjust factor as needed
+        });
+    </script>
+</body>
+
+</html>
