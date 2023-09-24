@@ -173,6 +173,7 @@ svg {
 
 /* Page 1 Styles */
 .page1_container {
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -197,9 +198,9 @@ svg {
 }
 
 .Heading {
-    width: 1400px;
+    width: 100vw;
     text-align: center;
-    font-size: 8.4rem;
+    font-size: 7.4vw;
     font-family: 'Subj', sans-serif;
     font-weight: 1000;
     color: #303030;
@@ -209,27 +210,28 @@ svg {
 }
 
 .firstpagebody {
-    width: 900px;
-    margin-left: 110px;
-    font-size: 1.1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    font-size: 1.1vw;
     font-weight: light;
     font-family: 'Anybody', sans-serif;
-    margin-bottom: 5px;
     color: #3d3d3d;
-    margin-top: 60px;
+
 }
 
 .top-left-header {
     position: absolute;
     top: 8px;
-    left: 10;
+    left: 10px;
     padding: 20px;
     color: #151515;
     z-index: 1000;
 }
 
 .top-left-header>h1 {
-    font-size: 18px;
+    font-size: 1.3vw;
     font-style: italic;
 }
 
@@ -246,7 +248,7 @@ svg {
 }
 
 .social-icon {
-    font-size: 24px;
+    font-size: 1.6vw;
     color: #4c4c4c;
     transition: color 0.3s;
 }
@@ -258,6 +260,7 @@ svg {
 /* Page 2 Styles */
 #PAGE2 .container-fluid {
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,6 +299,7 @@ svg {
 /* Page 3 - Projects Styles */
 #PAGE3 {
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,7 +419,8 @@ svg {
 
 /* Page 4 - Skills Styles */
 .full-screen-section {
-    height: 110vh;
+    width: 100vw;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -431,9 +436,10 @@ svg {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1500px;
+    width: 100vw;
     gap: 30px;
-    margin-top: 70px;
+    margin-top: 140px;
+    margin-bottom: 140px;
 }
 
 .skill-box {
@@ -467,7 +473,7 @@ svg {
 
 .skillsheading {
     font-family: "Subj";
-    top: 60px;
+    top: 40px;
     left: 60px;
     font-size: 3.8rem;
     position: absolute;
@@ -493,6 +499,7 @@ svg {
     border-top-right-radius: 40px;
     padding: 0;
     background-color: rgb(244, 244, 244);
+    width: 100vw;
 }
 
 .fill-screen-contact {
@@ -707,16 +714,11 @@ html.lenis {
 
 /* Media Query for mobile devices */
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 
 
     body {
         font-size: 14px;
-    }
-
-    .Heading {
-        font-size: 6.4rem;
-        margin: 20px;
     }
 
     .nav-wrapper {
@@ -755,9 +757,9 @@ html.lenis {
     }
 
     .Heading {
-        width: 500px;
+        width: 100vw;
         text-align: center;
-        font-size: 5rem;
+        font-size: 14vw;
         font-family: 'Subj', sans-serif;
         font-weight: 1000;
         color: #303030;
@@ -767,40 +769,51 @@ html.lenis {
     }
 
     .firstpagebody {
-        width: 300px;
-        margin-left: 195px;
-        font-size: 0.8rem;
-        margin-bottom: 5px;
-        margin-top: 10px;
+        width: 100vw;
+        font-size: 1rem;
     }
 
     .social-icons {
-        bottom: 16px;
+        bottom: 20px;
         margin-right: -5px;
+    }
+
+    .social-icon {
+        font-size: 3.6vw;
+    }
+
+    .top-left-header>h1 {
+        font-size: 2.8vw;
+        font-style: italic;
+    }
+
+    .top-left-header {
+        left: -5px;
     }
 
     /* Page 2 */
     #PAGE2 .container-fluid {
-        width: 100%;
+        width: 100vw;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
 
     .aboutme1 {
         padding-left: 10px;
-        padding-bottom: 90px;
-        font-size: 3.8rem;
+        padding-bottom: 40px;
+        font-size: 12vw;
     }
 
     .aboutmepara {
         font-family: 'Anybody';
         margin-left: 10px;
-        font-size: 1.8rem;
+        font-size: 6.8vw;
     }
 
     /* Page 3 - Projects Styles */
     #PAGE3 {
         height: 100vh;
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -826,9 +839,11 @@ html.lenis {
         width: 100%;
         height: 480px;
         margin-top: 80px;
+        display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        justify-content: center;
         padding: 0;
     }
 
@@ -853,24 +868,31 @@ html.lenis {
 
     .project-title {
         font-size: 1.2rem;
-        margin-left: 175px;
+        display: flex;
+        justify-content: center;
+
     }
 
     .project-title2 {
         font-size: 1.2rem;
-        margin-left: 160px;
+        display: flex;
+        justify-content: center;
     }
 
 
     .project-description {
         font-size: 0.8rem;
         width: auto;
-        margin-left: 30px;
-        margin-right: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .project-buttons {
-        margin-left: 170px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
     }
 
     .btn2 {
@@ -883,10 +905,10 @@ html.lenis {
         margin-top: 20px;
         display: flex;
         flex-direction: row;
-        position: absolute;
+        justify-content: center;
         align-items: center;
-        left: 110px;
-        top: 470px;
+        left: 100px;
+        top: 500px;
         gap: 20px;
     }
 
@@ -894,10 +916,11 @@ html.lenis {
         margin-top: 30px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         position: absolute;
         align-items: center;
         left: 130px;
-        top: 470px;
+        top: 500px;
         gap: 20px;
     }
 
@@ -919,27 +942,30 @@ html.lenis {
     /* Page 4 - Skills Styles */
     .full-screen-section {
         height: 100vh;
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        padding: 0px 15px;
 
     }
 
     .skillsheading {
         font-family: "Subj";
-        top: 60px;
-        left: 10px;
+        top: 50px;
+        left: 20px;
         font-size: 3.8rem;
     }
 
     .skills-container {
-        width: 100%;
+        width: 100vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        padding: 0 20px;
     }
 
     .skill-box {
@@ -963,11 +989,6 @@ html.lenis {
         height: fit-content;
     }
 
-    .contact-heading {
-        position: static;
-        font-size: 20px;
-        margin: 10px 0;
-    }
 
     .contact-container {
         flex-direction: column;
@@ -982,7 +1003,7 @@ html.lenis {
     }
 
     .big-text {
-        font-size: 60px;
+        font-size: 90px;
         width: auto;
         line-height: 120%;
     }
