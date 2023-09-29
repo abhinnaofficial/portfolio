@@ -35,7 +35,6 @@ body {
     font-family: 'Anybody', sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
 body::before {
@@ -135,7 +134,7 @@ svg {
 .nav-wrapper {
     position: fixed;
     top: 20px;
-    right: 0;
+    right: 20px;
     width: auto;
     height: auto;
     padding: 10px;
@@ -173,7 +172,7 @@ svg {
 
 /* Page 1 Styles */
 .page1_container {
-    width: 100vw;
+
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -198,26 +197,27 @@ svg {
 }
 
 .Heading {
-    width: 100vw;
+    width: 1355px;
     text-align: center;
     font-size: 7.4vw;
     font-family: 'Subj', sans-serif;
     font-weight: 1000;
     color: #303030;
     line-height: 1;
-    margin: 80px;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 .firstpagebody {
-    width: 100vw;
+    width: 1355px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-left: 20%;
     font-size: 1.1vw;
     font-weight: light;
     font-family: 'Anybody', sans-serif;
     color: #3d3d3d;
+    position: absolute;
+    bottom: 60px;
 
 }
 
@@ -233,6 +233,10 @@ svg {
 .top-left-header>h1 {
     font-size: 1.3vw;
     font-style: italic;
+}
+
+.row {
+    width: 90%;
 }
 
 /* Social Icons Styles */
@@ -260,7 +264,6 @@ svg {
 /* Page 2 Styles */
 #PAGE2 .container-fluid {
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +302,7 @@ svg {
 /* Page 3 - Projects Styles */
 #PAGE3 {
     height: 100vh;
-    width: 100vw;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -419,7 +422,6 @@ svg {
 
 /* Page 4 - Skills Styles */
 .full-screen-section {
-    width: 100vw;
 
     display: flex;
     flex-direction: column;
@@ -436,7 +438,6 @@ svg {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100vw;
     gap: 30px;
     margin-top: 140px;
     margin-bottom: 140px;
@@ -499,7 +500,7 @@ svg {
     border-top-right-radius: 40px;
     padding: 0;
     background-color: rgb(244, 244, 244);
-    width: 100vw;
+
 }
 
 .fill-screen-contact {
@@ -736,6 +737,9 @@ html.lenis {
     }
 
     /* PAGE 1 */
+    .row {
+        width: 90%;
+    }
 
     .span1 {
         font-size: 12px;
@@ -748,7 +752,6 @@ html.lenis {
         align-items: center;
         background-color: rgb(244, 244, 244);
         z-index: 1;
-
     }
 
     .resume {
@@ -757,43 +760,42 @@ html.lenis {
     }
 
     .Heading {
-        width: 100vw;
+        margin: auto;
+        width: 350px;
         text-align: center;
-        font-size: 14vw;
-        font-family: 'Subj', sans-serif;
-        font-weight: 1000;
-        color: #303030;
-        line-height: 1;
-        margin: 80px;
-        text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+        font-size: 70px;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+
     }
 
     .firstpagebody {
-        width: 100vw;
-        font-size: 1rem;
+        justify-content: center;
+        width: 380px;
+        font-size: 0.8rem;
+        bottom: 30px;
     }
 
     .social-icons {
         bottom: 20px;
-        margin-right: -5px;
+
     }
 
     .social-icon {
-        font-size: 3.6vw;
+        font-size: 1rem;
     }
 
     .top-left-header>h1 {
-        font-size: 2.8vw;
+        font-size: 1.1rem;
         font-style: italic;
     }
 
     .top-left-header {
         left: -5px;
+        top: 1%;
     }
 
     /* Page 2 */
     #PAGE2 .container-fluid {
-        width: 100vw;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
@@ -813,7 +815,6 @@ html.lenis {
     /* Page 3 - Projects Styles */
     #PAGE3 {
         height: 100vh;
-        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -942,7 +943,6 @@ html.lenis {
     /* Page 4 - Skills Styles */
     .full-screen-section {
         height: 100vh;
-        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -960,7 +960,6 @@ html.lenis {
     }
 
     .skills-container {
-        width: 100vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -1003,8 +1002,7 @@ html.lenis {
     }
 
     .big-text {
-        font-size: 90px;
-        width: auto;
+        font-size: 70px;
         line-height: 120%;
     }
 
