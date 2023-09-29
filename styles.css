@@ -760,32 +760,36 @@ html.lenis {
     }
 
     .Heading {
-        margin: auto;
-        width: 350px;
+
+        width: 360px;
         text-align: center;
-        font-size: 70px;
-        text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+        font-size: 60px;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+        margin-top: -8%;
 
     }
 
     .firstpagebody {
         justify-content: center;
-        width: 380px;
+        text-align: center;
+        width: 353px;
         font-size: 0.8rem;
-        bottom: 30px;
+        bottom: 140px;
     }
 
     .social-icons {
-        bottom: 20px;
-
+        bottom: 30px;
+        right: 0px;
     }
+
 
     .social-icon {
         font-size: 1rem;
+
     }
 
     .top-left-header>h1 {
-        font-size: 1.1rem;
+        font-size: 1.0rem;
         font-style: italic;
     }
 
@@ -909,7 +913,7 @@ html.lenis {
         justify-content: center;
         align-items: center;
         left: 100px;
-        top: 500px;
+        top: 510px;
         gap: 20px;
     }
 
@@ -976,7 +980,7 @@ html.lenis {
 
     .skill {
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
 
@@ -1002,7 +1006,7 @@ html.lenis {
     }
 
     .big-text {
-        font-size: 70px;
+        font-size: 60px;
         line-height: 120%;
     }
 
@@ -1067,7 +1071,7 @@ html.lenis {
     }
 
     .footer-disclaimer {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         bottom: 20px;
     }
 
