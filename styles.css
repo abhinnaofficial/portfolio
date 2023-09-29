@@ -728,6 +728,7 @@ html.lenis {
         padding: 0px;
     }
 
+
     .hover-this {
         margin-right: 18px;
     }
@@ -759,13 +760,30 @@ html.lenis {
         font-size: 0.8rem;
     }
 
-    .Heading {
+    .resume {
+        position: absolute;
+        top: 590px;
+        left: 38%;
+        transform: none;
+        transform-origin: none;
+        background-color: #1e1e1e;
+        color: #ebebeb;
+        border: none;
+        border-radius: 10%;
+        cursor: none;
+    }
 
-        width: 360px;
+    .Heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+
         text-align: center;
-        font-size: 60px;
+        font-size: 65px;
         text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-        margin-top: -8%;
+        margin-top: -60%;
+        margin-bottom: -80%;
 
     }
 
@@ -774,11 +792,11 @@ html.lenis {
         text-align: center;
         width: 353px;
         font-size: 0.8rem;
-        bottom: 140px;
+        bottom: 120px;
     }
 
     .social-icons {
-        bottom: 30px;
+        bottom: 50px;
         right: 0px;
     }
 
@@ -795,7 +813,7 @@ html.lenis {
 
     .top-left-header {
         left: -5px;
-        top: 1%;
+        top: 1.5%;
     }
 
     /* Page 2 */
