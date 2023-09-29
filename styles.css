@@ -1014,6 +1014,7 @@ html.lenis {
     .skill {
         text-align: center;
         font-size: 1.0rem;
+        font-weight: lighter;
     }
 
 
@@ -1040,7 +1041,7 @@ html.lenis {
 
     .big-text {
         font-size: 60px;
-        line-height: 120%;
+        line-height: 135%;
     }
 
     .small-text {
@@ -1106,6 +1107,7 @@ html.lenis {
     .footer-disclaimer {
         font-size: 0.8rem;
         bottom: 20px;
+        font-weight: lighter;
     }
 
     .gradient-animation {
