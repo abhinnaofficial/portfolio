@@ -737,6 +737,12 @@ html.lenis {
         margin-right: 10px;
     }
 
+    .counter {
+        padding-right: 20px;
+        font-size: 20vw;
+
+    }
+
     /* PAGE 1 */
     .row {
         width: 90%;
