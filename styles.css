@@ -946,7 +946,7 @@ html.lenis {
         justify-content: center;
         align-items: center;
         left: 100px;
-        top: 525px;
+        top: 518px;
         gap: 20px;
     }
 
@@ -1040,6 +1040,7 @@ html.lenis {
     }
 
     .big-text {
+        margin-top: 20px;
         font-size: 60px;
         line-height: 135%;
     }
