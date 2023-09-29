@@ -946,7 +946,7 @@ html.lenis {
         justify-content: center;
         align-items: center;
         left: 100px;
-        top: 510px;
+        top: 525px;
         gap: 20px;
     }
 
@@ -958,7 +958,7 @@ html.lenis {
         position: absolute;
         align-items: center;
         left: 130px;
-        top: 500px;
+        top: 510px;
         gap: 20px;
     }
 
@@ -1013,7 +1013,7 @@ html.lenis {
 
     .skill {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
 
 
