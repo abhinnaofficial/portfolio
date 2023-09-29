@@ -778,32 +778,29 @@ html.lenis {
         justify-content: center;
         align-items: center;
         width: 320px;
-
         text-align: center;
         font-size: 65px;
         text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-        margin-top: -60%;
+        margin-top: -70%;
         margin-bottom: -80%;
 
     }
 
     .firstpagebody {
+        display: flex;
         justify-content: center;
         text-align: center;
+        margin-top: 10px;
         width: 353px;
         font-size: 0.8rem;
         bottom: 100px;
+        margin-left: -10px;
     }
 
     .span1 {
-        display: inline-block;
-        font-family: "Anybody";
         font-weight: 200;
-        color: #434343;
         font-size: 12px;
         pointer-events: none;
-        transition: transform 0.1s linear;
-        z-index: 1000;
     }
 
     .social-icons {
