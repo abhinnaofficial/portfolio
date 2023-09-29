@@ -795,6 +795,17 @@ html.lenis {
         bottom: 100px;
     }
 
+    .span1 {
+        display: inline-block;
+        font-family: "Anybody";
+        font-weight: 200;
+        color: #434343;
+        font-size: 12px;
+        pointer-events: none;
+        transition: transform 0.1s linear;
+        z-index: 1000;
+    }
+
     .social-icons {
         bottom: 35px;
         right: 0px;
@@ -809,6 +820,7 @@ html.lenis {
     .top-left-header>h1 {
         font-size: 1.0rem;
         font-style: italic;
+        font-weight: bold;
     }
 
     .top-left-header {
